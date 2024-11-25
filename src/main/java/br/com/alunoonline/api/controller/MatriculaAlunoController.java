@@ -15,7 +15,7 @@ public class MatriculaAlunoController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void criarMatriculaAluno(@RequestBody MatriculaAluno matriculaAluno){
+    public void criarMatricula(@RequestBody MatriculaAluno matriculaAluno){
         matriculaAlunoService.criarMatricula(matriculaAluno);
     }
 
@@ -24,5 +24,6 @@ public class MatriculaAlunoController {
     public void trancarMatricura(@PathVariable Long id){
         matriculaAlunoService.trancarMatricula(id);
     }
+
 
 }

@@ -32,7 +32,10 @@ public class MatriculaAlunoService {
         }
 
         matriculaAluno.setStatus(MatriculadoStatusAlunoEnum.TRANCADO);
-
         matriculaAlunoRepository.save(matriculaAluno);
+    }
+
+    public void atualizaNotas(){
+
     }
 }
