@@ -24,6 +24,10 @@ public class DisciplinaService {
         return disciplinaRepository.findAll();
     }
 
+    public List<Disciplina> listarDisciplinaDoProf(Long professorId) {
+        return disciplinaRepository.findByProfessorId(professorId);
+    }
+
     public Optional<Disciplina> buscarDisciplinaPorId(Long id){
         return disciplinaRepository.findById(id);
     }

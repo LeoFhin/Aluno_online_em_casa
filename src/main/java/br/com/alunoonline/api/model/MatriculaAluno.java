@@ -28,9 +28,9 @@ public class MatriculaAluno implements Serializable  {
 
     private Double nota1;
 
-    private Double note2;
+    private Double nota2;
 
-    @Enumerated(EnumType.STRING   )
+    @Enumerated(EnumType.STRING)
     private MatriculadoStatusAlunoEnum status;
 
 }
