@@ -6,9 +6,9 @@ Este projeto é uma API backend, sem interface gráfica, projetada para atender 
 
 ## Sumário
 
-Arquitetura do Projeto
-Estrutura do Projeto
-Tecnologias Utilizadas
+- Arquitetura do Projeto
+- Estrutura do Projeto
+- Tecnologias Utilizadas
 
 ## Arquitetura do Projeto
 
