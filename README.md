@@ -9,7 +9,6 @@ Este projeto é uma API backend, sem interface gráfica, projetada para atender 
 Arquitetura do Projeto
 Estrutura do Projeto
 Tecnologias Utilizadas
-Operações Disponíveis
 
 ## Arquitetura do Projeto
 
